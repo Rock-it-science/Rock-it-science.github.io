@@ -2,32 +2,50 @@
 <style>
 
   body {
-    background-color: #3d4044;
+    background-color: white;
     text
   }
 
   h1 {
-    color: ##fc7958;
+    color: #e5522d; /* peach */
+  }
+
+  h2 {
+    color: black;
   }
 
   p{
-    color: #ffffff;
+    color: black;
+  }
+
+  .thumb {
+    width: 50px
   }
 
   .button {
-    background-color: #669cf9;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 25px;
+    color: white;
+    padding: 5px 5px;
+    display: inline-block;
     transition-duration: 0.1s;
   }
 
   .button:hover {
-    background-color: #1958c4;
+    background-color: #fc7958; /* lighter peach */
+    color: white;
   }
 
 </style>
 <body>
   <h1>Will's Space</h1>
   <div id='buttons'>
-    <button id='about'>About</button>
+    <button id='about' class='button' onclick="location.href='https://github.com/Rock-it-science'"><img class='thumb' src='https://img.icons8.com/metro/1600/github.png'></button>
+  </div>
+  <div id='articles'>
+    <h2>Articles: <i>COMING SOON</i></h2>
   </div>
 </body>
 </html>
