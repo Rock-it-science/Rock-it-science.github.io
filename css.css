@@ -1,0 +1,64 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: #e5522d; /* peach */
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.thumb {
+  width: 50px
+}
+
+.side-bio {
+  height: 500px;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: grey;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.side-bio p {
+  color: white;
+}
+
+.side-bio img {
+  width: 100%;
+  align: top;
+}
+
+.button {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 25px;
+  color: white;
+  padding: 5px 5px;
+  display: inline-block;
+  transition-duration: 0.1s;
+}
+
+.button:hover {
+  background-color: #fc7958; /* lighter peach */
+  color: white;
+}
