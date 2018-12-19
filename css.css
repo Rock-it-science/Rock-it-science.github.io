@@ -1,25 +1,28 @@
 body {
-  background-color: white;
+  background-color:#008080; /* A E S T H E T I C */
 }
 
-h1 {
-  color: #e5522d; /* peach */
-}
-
-h2 {
-  color: black;
-}
-
-h3 {
-  color: black;
-}
-
-p {
-  color: black;
+h1, h2, h3, p {
+  font-family: "Lucida Console";
+  color: white;
 }
 
 a {
+  color: white
   text-decoration: none;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: underline;
+}
+
+a:link:active, a:visited:active {
+  color: blue;
+}
+
+.body p {
+  font-family:"Times New Roman";
 }
 
 .thumb {
@@ -27,19 +30,19 @@ a {
 }
 
 .side-bio {
-  height: 500px;
+  height: 100%;
   width: 200px;
   position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: grey;
+  background-color: white;
   overflow-x: hidden;
   padding-top: 16px;
 }
 
 .side-bio p {
-  color: white;
+  color: black;
 }
 
 .side-bio img {
@@ -48,17 +51,17 @@ a {
 }
 
 .button {
-  background-color: white;
-  border: 2px solid white;
+  background-color: #008080; /* peach */
+  border: 2px solid #008080; /* peach */;
   border-radius: 8px;
   font-size: 25px;
   color: white;
   padding: 5px 5px;
   display: inline-block;
-  transition-duration: 0.1s;
+  transition-duration:0.5s;
 }
 
 .button:hover {
-  background-color: #fc7958; /* lighter peach */
+  background-color: white;
   color: white;
 }
