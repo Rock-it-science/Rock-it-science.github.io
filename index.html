@@ -1,6 +1,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="gist-style.css">
 </head>
 <body>
 
@@ -14,11 +15,18 @@
   </div>
 
   <div class='window'>
-    <img src='img/github_owler.png' width='40%' onclick='document.location="https://github.com/Rock-it-science"'/>
+    <img id='githubLogo' src='img/github_owler.png' width='40%' onclick='document.location="https://github.com/Rock-it-science"'/>
     <H2>Completed Projects</H2>
     <a href='https://github.com/Rock-it-science/craigslist-notifier'> Craigslist Notifier</a>
+    <img id='langLogo' src='img/python.png'/>
     <p>
-      Scrapes craigslist for ads that match a given search and notifies you when a new ad is posted.
+      Scrapes craigslist for ads that match a given search and notifies you
+      when a new ad is posted.<br>
+      Uses beautifulSoup to scrape Craigslist for ads matching a given search
+      criteria. <br>
+      The program looks for the ads on the page, and creates an array containing
+      the URLs and titles of each ad.<br>
+      <script src="https://gist.github.com/Rock-it-science/ab613e3bc1c3012244da80f543532a01.js"></script>
     <p>
 
 
