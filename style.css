@@ -31,14 +31,13 @@ a:link:active, a:visited:active {
 
 .side-bio {
   height: 100%;
-  width: 200px;
+  width: 14%;
   position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
   background-color: white;
   overflow-x: hidden;
-  padding-top: 16px;
 }
 
 .side-bio p, .side-bio a {
@@ -49,21 +48,24 @@ a:link:active, a:visited:active {
   width: 100%;
 }
 
-.taskbar {
-  position:fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height:40px;
+.window {
+  margin-left: 20%;
+  width: 50%;
+  border: 3px solid black;
   background-color: #cccccc;
-  margin-left:0px;
-  margin-top:0px;
 }
-.taskbar img {
-  position:absolute;
-  top:0;
-  height: 100%;
+
+.window p, H2 {
+  color: black;
+}
+
+.window a {
+  color: black;
+  font-size: 20;
+}
+
+.window img:hover {
+  background-color:#9e9e9e;
 }
 
 .icon {
