@@ -1,0 +1,30 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  <link rel="stylesheet" type="text/css" href="../gist-style.css">
+</head>
+<body>
+  <img id='home-btn' src='../img/home.png' onclick='document.location="../index.html"'/>
+  <div class="window">
+    <a href='https://github.com/Rock-it-science/wikihow-game'>Wikihow Game</a>
+    <p>A party game where you get to caption WihiHow pictures.<br>
+    The index screen displays the buttons to allow selection of host of player.</p>
+    <img id='sampleCap' src='wikihow/index.png'/>
+    <p>The guess/player page displays a text entry box to allow players to
+    submit responses.</p>
+    <img id='sampleCap' src='wikihow/player.png'/>
+    <p>The code for this page is very simple, and consists of a simple HTML
+    form that submits to a php file called responseSubmit.<br>
+    The responsSubmit file simply submits the response from the HTML form to the
+    mySQL server. Its really about as simple as a database interaction can get.
+    I ran my server with XAMPP using MariaDB and PHP 7.3.10<br>
+    <script src="https://gist.github.com/Rock-it-science/014b7fba5f683a40be2882540ac98581.js?file=responseSubmit.php"></script>
+    The picture/host page displays an image, and a timer. While the timer
+    is counting down, submissions are entered by the players.</p>
+    <img id='sampleCap' src='wikihow/host1.png'/>
+    <p>Once the timer has reached 0, the submissions collected from the players
+    as well as the original caption are displayed on-screen.</p>
+    <img id='sampleCap' src='wikihow/host2.png'/>
+  </div>
+</body>
+</html>

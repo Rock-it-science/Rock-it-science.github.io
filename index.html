@@ -1,10 +1,9 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="gist-style.css">
 </head>
 <body>
-
+  <img id='home-btn' src='img/home.png' onclick='document.location="index.html"'/>
   <div class='side-bio'>
     <img src='img/604-square.jpg'></img>
     <p align='middle'>
@@ -16,27 +15,15 @@
 
   <div class='window'>
     <img id='githubLogo' src='img/github_owler.png' width='40%' onclick='document.location="https://github.com/Rock-it-science"'/>
-    <H2>Completed Projects</H2>
-    <a href='https://github.com/Rock-it-science/craigslist-notifier'> Craigslist Notifier</a>
-    <img id='langLogo' src='img/python.png'/>
-    <p>
-      Scrapes craigslist for ads that match a given search and notifies you
-      when a new ad is posted.<br>
-      Uses beautifulSoup to scrape Craigslist for ads matching a given search
-      criteria. <br>
-      The section of code shown below looks for the ads on the page, and creates
-       an array containing the URLs and titles of each ad.<br></p>
-      <script src="https://gist.github.com/Rock-it-science/ab613e3bc1c3012244da80f543532a01.js?file=craigslistNotifier_Snip1.py"></script>
-      <p>The program will then compare the URLs from that arry with those already
-      stored in the existing_ads.txt file (if it exists), and if an ad is found
-      that does not already exist in the existing_ads.txt file, then send
-      notification via notify, and add that ad to the txt file.
-      The code block shown below carries out this algorigthm.</p>
-      <script src="https://gist.github.com/Rock-it-science/ab613e3bc1c3012244da80f543532a01.js?file=craigslistNotifier_Snip2.py"></script>
-      <p><b>Sample Run:<b></p>
-      <img id='sampleCap' src='projects/craigslistNotifier/samplepyrun.png'/>
-      <img id='sampleCap' src='projects/craigslistNotifier/notifierNotifications.png'/>
+    <br>
 
+    <H2>Completed Projects</H2>
+    <a href='projects/craigslistNotifier.html'> Craigslist Notifier</a>
+    <img id='langLogo' src='img/python.png'/>
+    <br><br>
+    <a href='projects/wikihowGame.html'> Wikihow Game</a>
+    <img id='langLogo' src='img/php.png'/>
+    <br><br>
 
     <H2>Projects currently under development</H2>
 
@@ -44,6 +31,30 @@
 
 
   </div>
+
+<script>
+  //Toggles whether div is hidden or shown
+  function hideShow(divName){
+    var d = document.getElementById(divName);
+    var a = document.getElementById(divName+'A');
+
+    //if div currently displayed, hide div (change to up arrow)
+    if(d.style.display === "none"){
+      d.style.display = "block";
+      a.innerHTML = a.innerHTML.substring(0,a.innerHTML.length-1)+'▲';
+      console.log('change to up arrow');
+    }
+
+    //Otherwise show div (change to down arrow)
+    else{
+      d.style.display = "none";
+        a.innerHTML = a.innerHTML.substring(0,a.innerHTML.length-1)+'▼';
+        console.log('change to down arrow');
+    }
+  }
+
+</script>
+
 
 </body>
 </html>
