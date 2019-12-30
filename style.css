@@ -100,3 +100,14 @@ a:link:active, a:visited:active {
 #home-btn.active {
   background-color: #4CAF50;
 }
+
+/**For phones**/
+@media (pointer:coarse) {
+  .side-bio {
+    display: none;
+  }
+  .window {
+    margin-left: 10%;
+    width: 80%;
+  }
+}
