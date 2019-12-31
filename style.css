@@ -8,20 +8,6 @@ h1, h2, h3, p {
   line-height: 1.1;
 }
 
-a {
-  color: white
-  text-decoration: none;
-}
-
-a:link, a:visited {
-  color: white;
-  text-decoration: underline;
-}
-
-a:link:active, a:visited:active {
-  color: blue;
-}
-
 .body p {
   font-family:"Times New Roman";
 }
@@ -50,8 +36,8 @@ a:link:active, a:visited:active {
 }
 
 .window {
-  margin-left: 20%;
-  width: 50%;
+  margin-left: 17.5%;
+  width: 65%;
   border: 3px solid black;
   background-color: #cccccc;
 }
@@ -70,6 +56,17 @@ a:link:active, a:visited:active {
   font-size: 25;
   margin-left: 4%;
   line-height: 1.5;
+}
+
+.window a:hover {
+  color: blue;
+}
+
+#inlineLink {
+  font-size: 16;
+  margin-left: auto;
+  display: inline-block;
+  line-height: 1;
 }
 
 #githubLogo:hover {
