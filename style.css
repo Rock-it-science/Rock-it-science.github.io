@@ -6,6 +6,7 @@ h1, h2, h3, p {
   font-family: "Lucida Console";
   color: black;
   line-height: 1.1;
+  display: inline-block;
 }
 
 .body p {
@@ -42,8 +43,8 @@ h1, h2, h3, p {
   background-color: #cccccc;
 }
 
-.window H2 {
-  color: black;
+.window H3 {
+  margin-left: 4%;
 }
 
 .window p {
