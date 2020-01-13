@@ -9,12 +9,18 @@ body {
   background-image: url("img/introbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: auto;
 }
 
 #intro-text {
+  display: block;
   width: 30%;
   background-color: #05CCCF;
-  color: #C8C8C8;
+  color: white;
+  border-radius: 25px;
   margin-top: 10%;
   margin-left: 3%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
