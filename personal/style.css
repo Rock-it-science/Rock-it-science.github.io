@@ -29,7 +29,7 @@ body {
   width: 100%;
   height: 100%;
   border: none;
-  background-image: url("img/introbg.jpg");
+  background-image: url("img/projectsbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   overflow: auto;
@@ -43,16 +43,25 @@ body {
   border-radius: 25px;
   margin-top: 10%;
   margin-left: 3%;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#projects a {
+  color: white;
+  font-size: 25;
+}
+
+#projects a:hover {
+  color: #97C3C7;
 }
 
 #hobbies {
   width: 100%;
   height: 100%;
   border: none;
-  background-image: url("img/introbg.jpg");
+  background-image: url("img/hobbiesbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   overflow: auto;
