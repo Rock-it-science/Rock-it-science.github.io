@@ -63,6 +63,14 @@ h1, h2, h3, p {
   color: blue;
 }
 
+#inline {
+  color: black;
+  font-size: 16;
+}
+#inline:hover {
+  color: blue;
+}
+
 #inlineLink {
   font-size: 16;
   margin-left: auto;
