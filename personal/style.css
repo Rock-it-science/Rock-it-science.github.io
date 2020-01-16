@@ -79,15 +79,35 @@ H2{
   color: #97C3C7;
 }
 
-#hobbies {
-  width: 100%;
-  height: 100%;
-  border: none;
-  background-image: url("img/hobbiesbg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: auto;
+#hobby-text {
+  display: inline;
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding-top: 10%;
 }
+
+#hobbies {
+  color: white;
+  text-align: center;
+}
+
+#hobbies H1 {
+  font-size: 40;
+}
+
+#hobby-container {
+  width: 100%;
+  height: 80%;
+  color: white;
+}
+
+#hobby-img {
+  height: 100%;
+  float: right;
+  margin-top: 0;
+}
+
 
 #hobbies-text {
   display: block;
