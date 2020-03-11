@@ -66,6 +66,7 @@ h1, h2, h3, p {
 #inline {
   color: black;
   font-size: 16;
+  margin-left: 0;
 }
 #inline:hover {
   color: blue;
