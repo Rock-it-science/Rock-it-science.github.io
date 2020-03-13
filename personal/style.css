@@ -12,13 +12,13 @@ H2{
 }
 
 #intro {
-  width: 100%;
   height: 100%;
   border: none;
   background-image: url("img/introbg.gif");
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: auto;
+  background-position: 30% 0%;
+  overflow: hidden;
 }
 
 #intro-text {
@@ -27,7 +27,7 @@ H2{
   background-color: #237F88;
   color: white;
   border-radius: 25px;
-  margin-top: 10%;
+  margin-top: 25%;
   margin-left: 3%;
   padding-left: 10px;
   padding-top: 10px;
@@ -35,12 +35,12 @@ H2{
 }
 
 #projects {
-  width: 100%;
   height: 100%;
   border: none;
   background-image: url("img/projectsbg.gif");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 60% 0%;
   overflow: auto;
 }
 
