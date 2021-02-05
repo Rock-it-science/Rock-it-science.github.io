@@ -14,7 +14,7 @@ H2{
 #intro {
   height: 100%;
   border: none;
-  background-image: url("img/introbg.gif");
+  background-image: url("img/introbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 0%;
@@ -23,13 +23,13 @@ H2{
 
 #intro-text {
   display: block;
-  width: 30%;
+  width: 35%;
   background-color: #237F88;
   color: white;
   border-radius: 25px;
   line-height: 1.5;
-  margin-top: 15%;
-  margin-left: 3%;
+  margin-top: 5%;
+  margin-left: 1%;
   padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
