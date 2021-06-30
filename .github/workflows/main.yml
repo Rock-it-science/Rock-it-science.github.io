@@ -10,5 +10,5 @@ jobs:
       - name: Secret Action
         env:
           secret: ${{ secrets.PAT }}
-          run: |
-            echo "Secret passed to environment variable"
+        run: |
+          echo "Secret passed to environment variable"
