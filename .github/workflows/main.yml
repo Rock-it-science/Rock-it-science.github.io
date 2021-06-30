@@ -1,5 +1,14 @@
-name: My first action
-on:
-  push
-env:
-  GITHUB_TOKEN: ${{ secrets.PAT }}
+name: Secrets
+
+on: push
+
+jobs:
+  job-1:
+    name: Secret Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Secret Action
+        env:
+          secret: ${{ secrets.PAT }}
+        run: |
+          echo "Secret passed to environment variable"
