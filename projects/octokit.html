@@ -10,9 +10,7 @@
     <script type="module">
       /*Octokit Setup*/
       import { Octokit, App } from "https://cdn.skypack.dev/octokit";
-      import { createActionAuth } from "@octokit/auth-action";
-      const auth = createActionAuth();
-      const authentication = await auth();
+      const octokit = new Octokit({auth : "ghs_bfnWd5Ynfopz3ghXcKwzVJ39fxl11y203eBM"});
 
       graphql_repos().then(result => {
         var repos = result.user.repositories.nodes
