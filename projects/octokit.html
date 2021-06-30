@@ -10,7 +10,7 @@
     <script type="module">
       /*Octokit Setup*/
       import { Octokit, App } from "https://cdn.skypack.dev/octokit";
-      const { createActionAuth } = require("@octokit/auth-action");
+      import { createActionAuth } from "@octokit/auth-action";
       const auth = createActionAuth();
       const authentication = await auth();
 
