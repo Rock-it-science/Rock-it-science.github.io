@@ -1,5 +1,14 @@
-name: My first action
-on:
-  push
-env:
-  GITHUB_TOKEN: ${{ secrets.PAT }}
+name: Secrets
+
+on: push
+
+jobs:
+  job-1:
+    name: Secret Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Secret Action
+        with: # Set the secret as an input
+          super_secret: ${{ secrets.SuperSecret }}
+        env: # Or as an environment variable
+          super_secret: ${{ secrets.SuperSecret }}
