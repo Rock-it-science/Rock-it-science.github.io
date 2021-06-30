@@ -1,0 +1,5 @@
+name: My first action
+on:
+  push
+env:
+  GITHUB_TOKEN: ${{ secrets.PAT }}
