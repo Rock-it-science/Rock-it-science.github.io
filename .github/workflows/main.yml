@@ -1,4 +1,4 @@
-name: Secrets
+name: Octokit Authentication
 
 on: push
 
@@ -7,8 +7,10 @@ jobs:
     name: Secret Job
     runs-on: ubuntu-latest
     steps:
-      - name: Secret Action
-        env:
-          secret: ${{ secrets.PAT }}
-        run: |
-          echo "Secret passed to environment variable"
+    - name: My action
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+          echo "Token passed to environment variable"
+        
+        
